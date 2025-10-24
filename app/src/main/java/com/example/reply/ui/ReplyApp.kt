@@ -33,6 +33,7 @@ fun ReplyApp(
     val navigationType: ReplyNavigationType
     val contentType: ReplyContentType
 
+
     val viewModel: ReplyViewModel = viewModel()
     val replyUiState = viewModel.uiState.collectAsState().value
 
